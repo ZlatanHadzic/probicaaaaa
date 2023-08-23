@@ -629,8 +629,14 @@ section {
   }
 }
 @media (max-width: 768px) {
-    .language-buttons {
-      display: flex; /* Display the links as flex on smaller screens */
-      justify-content: space-between; /* Space out the links horizontally */
-    }
+     .navbar #bs,
+  .navbar #en {
+    display: block; /* Display the options on smaller screens */
+  }
+  
+  .navbar .logo,
+  .navbar .links {
+    display: none; /* Hide the logo and other links on smaller screens */
+  }
+}
 /*# sourceMappingURL=servis.css.map */
