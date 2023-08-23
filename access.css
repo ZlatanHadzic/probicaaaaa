@@ -628,15 +628,5 @@ section {
     font-size: 3rem;
   }
 }
-@media (max-width: 768px) {
-     .navbar #bs,
-  .navbar #en {
-    display: block; /* Display the options on smaller screens */
-  }
-  
-  ,
-  .navbar .links {
-    display: none; /* Hide the logo and other links on smaller screens */
-  }
-}
+
 /*# sourceMappingURL=servis.css.map */
