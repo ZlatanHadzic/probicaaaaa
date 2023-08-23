@@ -628,4 +628,9 @@ section {
     font-size: 3rem;
   }
 }
+@media (max-width: 768px) {
+    .language-buttons {
+      display: flex; /* Display the links as flex on smaller screens */
+      justify-content: space-between; /* Space out the links horizontally */
+    }
 /*# sourceMappingURL=servis.css.map */
