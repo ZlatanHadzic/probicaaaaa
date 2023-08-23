@@ -573,7 +573,7 @@ section {
 
 @media (max-width: 768px) {
   .header .contact-info {
-    display: none;
+    display: block;
   }
   .header #menu-btn {
     display: inline-block;
