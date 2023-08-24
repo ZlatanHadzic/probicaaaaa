@@ -580,7 +580,7 @@ section {
   }
   .header #menu-btn.fa-times {
     -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+    transform: rotate(180deg);
   }
   .header .navbar .links {
     position: absolute;
@@ -591,11 +591,11 @@ section {
     border-top: 0.2rem solid #334;
     border-bottom: 0.2rem solid #334;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
   .header .navbar .links.active {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
   .header .navbar .links a {
     display: block;
@@ -608,12 +608,13 @@ section {
   .fun-fact .box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
     text-align: center;
   }
 }
 
+/* Media query for screens with a maximum width of 450px */
 @media (max-width: 450px) {
   html {
     font-size: 50%;
