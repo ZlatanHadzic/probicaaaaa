@@ -629,5 +629,31 @@ section {
     font-size: 3rem;
   }
 }
+@media (max-width: 768px) {
+  .header .contact-info {
+    text-align: center;
+  }
+
+  .header .contact-info p {
+    margin: 0.5rem 0; /* Add some vertical spacing */
+  }
+
+  .header .contact-info i {
+    display: inline-block;
+    margin-right: 5px; /* Add spacing between icon and text */
+  }
+
+  .header .contact-info a {
+    color: white;
+    transition: color 0.3s;
+  }
+}media (max-width: 768px) {
+  .header .contact-info {
+    text-align: center;
+  }
+
+
+ 
+}
 
 /*# sourceMappingURL=servis.css.map */
